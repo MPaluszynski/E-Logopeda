@@ -1,0 +1,52 @@
+.header__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1px;
+  width: 17.5vw;
+  height: 100%;
+  /* background: yellow; */
+  font-family: "Changa", sans-serif;
+  font-size: 4em;
+  text-decoration: underline wavy;
+}
+
+.header__unregistered-user,
+.header__registered-user {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 20vw;
+  text-decoration: none !important;
+  letter-spacing: normal;
+  /* background: red; */
+}
+
+.header__btn {
+  margin-top: 20px;
+  background-color: transparent;
+  cursor: pointer;
+  width: 35%;
+  padding: 12px 20px;
+  font-size: 1.25em;
+  border: solid limegreen 2px;
+  border-radius: 20px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  transition: background-color 0.75s;
+}
+
+.header__btn:hover {
+  background: limegreen;
+  -webkit-box-shadow: 25px 25px 25px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 25px 25px 25px 0px rgba(66, 68, 90, 1);
+  box-shadow: 25px 25px 25px 0px rgba(66, 68, 90, 1);
+}
+
+.header__btn:active {
+  background: #10ab10;
+  -webkit-box-shadow: 25px 25px 25px 0px rgba(66, 68, 90, 0.1);
+  -moz-box-shadow: 25px 25px 25px 0px rgba(66, 68, 90, 0.1);
+  box-shadow: 25px 25px 25px 0px rgba(66, 68, 90, 0.1);
+}
