@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/src/frontend/e-logopeda-react-client/node_modules
+/src/frontend/e-logopeda-react-client/.pnp
+/src/frontend/e-logopeda-react-client/.pnp.js
+
+# testing
+/src/frontend/e-logopeda-react-client/coverage
+
+# production
+/src/frontend/e-logopeda-react-client/build
+
+# misc
+/src/frontend/e-logopeda-react-client/.DS_Store
+/src/frontend/e-logopeda-react-client/.env.local
+/src/frontend/e-logopeda-react-client/.env.development.local
+/src/frontend/e-logopeda-react-client/.env.test.local
+/src/frontend/e-logopeda-react-client/.env.production.local
+
+/src/frontend/e-logopeda-react-client/npm-debug.log*
+/src/frontend/e-logopeda-react-client/yarn-debug.log*
+/src/frontend/e-logopeda-react-client/yarn-error.log*
