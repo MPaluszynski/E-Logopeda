@@ -37,7 +37,7 @@
   border-radius: 20px;
   text-align: center;
   font-family: "Bubblegum Sans", cursive;
-  transition: background-color 0.6s;
+  transition: background-color 1s;
 }
 
 .header__btn:hover {
