@@ -24,7 +24,7 @@ export const Header = (props) => {
 
     return (
         <div className="header">
-            <div className="header__logo">E-Logopeda</div>
+            <div></div>
             {checkUserLogInState()}
         </div>
       );
