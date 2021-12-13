@@ -1,9 +1,5 @@
-import '../styles/main-styles.css';
+import "../styles/main-styles.css";
 
 export const Exercise = () => {
-    return (
-        <div className="instructions">
-            TU BĘDZIE ĆWICZENIE
-        </div>
-      );
-}
+  return <div className="instructions">TU BĘDZIE ĆWICZENIE</div>;
+};

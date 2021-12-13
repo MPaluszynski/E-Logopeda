@@ -1,0 +1,21 @@
+.instructions--icon {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.left {
+  justify-content: flex-start;
+}
+
+.right {
+  justify-content: flex-end;
+}
+
+.instructions--text {
+  font-size: 1em;
+}
+
+.instructions--icon-height {
+  height: 250px;
+}
